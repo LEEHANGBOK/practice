@@ -12,9 +12,9 @@ public class Simple {
 	
 	static int cloudNumber = 3;		
 	
-	static String srcPath = "c:/";		//¿øº»ÆÄÀÏ À§Ä¡
-	static String dstPath = "c:/Download/Distribution/Seg";	//SegmentÆÄÀÏµé ÀúÀå À§Ä¡
-	static String combinePath = "c:/Download/Distribution/";	//combineÆÄÀÏ ÀúÀå À§Ä¡
+	static String srcPath = "c:/";		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡
+	static String dstPath = "c:/Download/Distribution/Seg";	//Segmentï¿½ï¿½ï¿½Ïµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡
+	static String combinePath = "c:/Download/Distribution/";	//combineï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡
 	
 	
 	static String name = "Presentation.pptx";
@@ -82,7 +82,7 @@ public class Simple {
     		}catch (Exception e) {
     			e.printStackTrace();     
     		}
-        System.err.println("----------------ºÐÇÒ¿Ï·á----------------");
+        System.err.println("----------------ï¿½ï¿½ï¿½Ò¿Ï·ï¿½----------------");
         
     	}
 
@@ -117,7 +117,7 @@ public class Simple {
     	}
         	nFo.flush();
         	nFo.close();
-        	System.err.println("----------------º´ÇÕ¿Ï·á----------------");
+        	System.err.println("----------------ï¿½ï¿½ï¿½Õ¿Ï·ï¿½----------------");
 	}
  
 	
@@ -141,18 +141,21 @@ public class Simple {
             String nFilePath = dstPath;	
             String nFileName = name;	
                            
-            //ºÐÇÒ
+            //ï¿½ï¿½ï¿½ï¿½
             //splitFile(nFilePath, nFileName, fi, fileSize);
  
-            //º´ÇÕ
+            //ï¿½ï¿½ï¿½ï¿½
             
             combineFile(fileName, nFilePath, fileSize);
                           
         }catch(Exception e){
         	e.printStackTrace();
         }
-            
+           
             
    }
 
 }
+
+
+//hi my name is hangbok
